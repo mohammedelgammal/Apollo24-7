@@ -1,0 +1,49 @@
+@import 'mixins';
+@import 'colors';
+
+.queries {
+    @include centering;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+    background-color: white;
+    padding: 20px 30px;
+
+        p {
+            text-align: left;
+            padding-left: 20px;
+            width: 100%;
+            color: rgb(95, 95, 95);
+            font-size: 18px;
+            margin-bottom: 20px; 
+        }
+        .lower-container {
+            @include centering;
+            align-items: flex-start;
+
+                .faq {
+                    @include centering;
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px $light-pink;
+                    margin: 0px 10px;
+
+                        svg {
+                            fill: $light-pink;
+                            flex: 1;
+                            margin: 0px 7px;
+                        }
+
+                        span {
+                            font-size: 14px;
+                            flex: 4;
+                            color: $light-pink;
+                        }
+                }
+        }
+
+}
