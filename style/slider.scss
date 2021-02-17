@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'mixins';
+
+.swiper-container {
+    margin-top: 50px;
+    width: 90%;
+    height: 300px; 
+
+    .swiper-slide {
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -6,11 +6,15 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Apollo247 
         link(rel="stylesheet", href="style/style.css")
+        link(rel="stylesheet", href="style/swiper-bundle.min.css")
     body
         .whole-body-container 
             include header 
             include main-section
             include queries   
-
-
-    script(src="scripts/main.js")  
+            include slider
+            include articles
+            include footer
+              
+    script(src="scripts/swiper-bundle.min.js")  
+    script(src="scripts/main.js")

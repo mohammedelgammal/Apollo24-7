@@ -1,0 +1,42 @@
+@import 'colors';
+@import 'mixins';
+
+footer {
+    @include centering;
+    height: 430px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+
+        .child {
+            @include centering;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex: 1;
+            height: 100%;
+
+                h3 {
+                    font-size: 14px;
+                    color: red;
+                    margin-bottom: 20px;
+                }
+
+                span {
+                    margin: 6px 0px;
+                    font-size: 14px;
+                }
+        }
+
+        .logo {
+
+
+                img { 
+                    width: 100px;
+                    height: 70px;
+                }
+        }
+
+}
+

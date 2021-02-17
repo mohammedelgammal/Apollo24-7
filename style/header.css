@@ -53,7 +53,9 @@ header .nav {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   background-color: white;
 }
 

@@ -28,7 +28,7 @@ header {
             .nav {
                 @include centering;
                 height: 100%;
-                width: 50%;
+                flex: 1;
                 background-color: white;
 
                     .item {

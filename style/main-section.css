@@ -11,10 +11,11 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 78vh;
+  min-height: 78vh;
   width: 100%;
   -webkit-box-shadow: 0px 5px 5px #f0f0f0;
           box-shadow: 0px 5px 5px #f0f0f0;
+  padding-top: 130px;
 }
 
 .main-section .img-container {
@@ -121,6 +122,7 @@
 }
 
 .main-section .left-hand-content .buttons-container .button img {
+  max-width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -128,8 +130,8 @@
 
 .main-section .left-hand-content .buttons-container #top-button, .main-section .left-hand-content .buttons-container #middle-button {
   margin-bottom: 10px;
-  background: -webkit-gradient(linear, right top, left top, from(#2D4D71), to(#5AA5AB));
-  background: linear-gradient(to left, #2D4D71, #5AA5AB);
+  background: -webkit-gradient(linear, left top, right top, from(#2D4D71), to(#5AA5AB));
+  background: linear-gradient(to right, #2D4D71, #5AA5AB);
 }
 
 .main-section .left-hand-content .buttons-container #top-button img, .main-section .left-hand-content .buttons-container #middle-button img {

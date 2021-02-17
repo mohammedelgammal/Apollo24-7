@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,iBAAiB,CAAC;EACd,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;CAShB;;AAZD,AAOQ,iBAPS,CAKb,aAAa,CAET,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "slider.scss",
+        "colors.scss",
+        "mixins.scss"
+    ],
+    "names": [],
+    "file": "slider.css"
+}
