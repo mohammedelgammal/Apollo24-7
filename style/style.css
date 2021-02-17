@@ -952,7 +952,6 @@ body .whole-body-container footer .child h3 {
   margin-bottom: 20px;
   cursor: pointer;
   width: 100%;
-  text-align: center;
 }
 
 body .whole-body-container footer .child .span-container {
@@ -973,7 +972,6 @@ body .whole-body-container footer .child .span-container {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 100px;
-  display: none;
 }
 
 body .whole-body-container footer .child .span-container span {
@@ -1531,45 +1529,54 @@ body .whole-body-container .tests-container .test .right {
   right: 0px;
 }
 
-@media only screen and (max-width: 900px) {
-  body .whole-body-container body {
-    overflow-x: hidden;
-  }
-  body .whole-body-container body .whole-body-container {
-    width: 100%;
-  }
-  body .whole-body-container body .whole-body-container header .logo {
-    width: 100%;
-  }
-  body .whole-body-container body .whole-body-container header .nav .item {
+@media only screen and (min-width: 900px) {
+  body .whole-body-container .sticky-footer {
     display: none;
   }
-  body .whole-body-container body .whole-body-container header .nav .user {
+  body .whole-body-container footer {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .whole-body-container {
+    width: 100%;
+  }
+  body .whole-body-container header .logo {
+    width: 100%;
+  }
+  body .whole-body-container header .nav .item {
+    display: none;
+  }
+  body .whole-body-container header .nav .user {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0px 20px;
   }
-  body .whole-body-container body .whole-body-container header .nav .cart {
+  body .whole-body-container header .nav .cart {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0px 10px;
   }
-  body .whole-body-container body .whole-body-container header .nav .cart .number {
+  body .whole-body-container header .nav .cart .number {
     right: -3px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom {
+  body .whole-body-container .articles .bottom {
     padding: 20px 0px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom .lower {
+  body .whole-body-container .articles .bottom .lower {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 20px 20px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom .lower .button {
+  body .whole-body-container .articles .bottom .lower .button {
     width: 100%;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -1579,75 +1586,78 @@ body .whole-body-container .tests-container .test .right {
 }
 
 @media only screen and (max-width: 768px) {
-  body .whole-body-container body {
+  body {
     overflow-x: hidden;
   }
-  body .whole-body-container body .whole-body-container {
+  body .whole-body-container {
     padding-right: 20px;
     width: 100%;
   }
-  body .whole-body-container body .whole-body-container header .logo {
+  body .whole-body-container header .logo {
     width: 100%;
   }
-  body .whole-body-container body .whole-body-container header .nav .item {
+  body .whole-body-container header .nav .item {
     display: none;
   }
-  body .whole-body-container body .whole-body-container header .nav .user {
+  body .whole-body-container header .nav .user {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0px 20px;
   }
-  body .whole-body-container body .whole-body-container header .nav .cart {
+  body .whole-body-container header .nav .cart {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0px 10px;
   }
-  body .whole-body-container body .whole-body-container header .nav .cart .number {
+  body .whole-body-container header .nav .cart .number {
     right: -3px;
   }
-  body .whole-body-container body .whole-body-container .main-section .img-container {
+  body .whole-body-container .main-section .img-container {
     display: none;
   }
-  body .whole-body-container body .whole-body-container .main-section .left-hand-content {
+  body .whole-body-container .main-section .left-hand-content {
     height: 100%;
     width: 100%;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  body .whole-body-container body .whole-body-container .articles .middle .right {
+  body .whole-body-container .articles .middle .right {
     bottom: 0px;
     left: 30px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom {
+  body .whole-body-container .articles .bottom {
     padding: 20px 0px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom .lower {
+  body .whole-body-container .articles .bottom .lower {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 20px 20px;
   }
-  body .whole-body-container body .whole-body-container .articles .bottom .lower .button {
+  body .whole-body-container .articles .bottom .lower .button {
     width: 100%;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     margin: 5px;
   }
-  body .whole-body-container body .whole-body-container footer {
+  body .whole-body-container footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  body .whole-body-container body .whole-body-container footer .item {
+  body .whole-body-container footer .child .span-container {
+    display: none;
+  }
+  body .whole-body-container footer .item {
     width: 100%;
   }
-  body .whole-body-container body .whole-body-container footer .logo {
+  body .whole-body-container footer .logo {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1659,12 +1669,12 @@ body .whole-body-container .tests-container .test .right {
             order: 5;
     width: 100%;
   }
-  body .whole-body-container body .whole-body-container .queries {
+  body .whole-body-container .queries {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  body .whole-body-container body .whole-body-container .queries .lower-container {
+  body .whole-body-container .queries .lower-container {
     width: 100%;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -1674,36 +1684,45 @@ body .whole-body-container .tests-container .test .right {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  body .whole-body-container body .whole-body-container .queries .lower-container .faq {
+  body .whole-body-container .queries .lower-container .faq {
     min-width: 100%;
     margin: 10px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  body .whole-body-container .whole-body-container {
+  .whole-body-container {
     padding-right: 20px;
   }
-  body .whole-body-container body .whole-body-container footer {
+  body .whole-body-container footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  body .whole-body-container body .whole-body-container .articles .top h2 {
+  body .whole-body-container footer .child h3 {
+    text-align: center;
+  }
+  body .whole-body-container footer .child .span-container {
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .whole-body-container .articles .top h2 {
     font-size: 1.8rem;
   }
-  body .whole-body-container body .whole-body-container .articles .middle {
+  body .whole-body-container .articles .middle {
     padding: 100px 30px;
   }
-  body .whole-body-container body .whole-body-container .articles .middle .right {
+  body .whole-body-container .articles .middle .right {
     bottom: 2px;
   }
-  body .whole-body-container body .whole-body-container .queries {
+  body .whole-body-container .queries {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  body .whole-body-container body .whole-body-container .queries .lower-container {
+  body .whole-body-container .queries .lower-container {
     width: 100%;
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -1713,7 +1732,7 @@ body .whole-body-container .tests-container .test .right {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  body .whole-body-container body .whole-body-container .queries .lower-container .faq {
+  body .whole-body-container .queries .lower-container .faq {
     min-width: 100%;
     margin: 10px;
   }

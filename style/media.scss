@@ -1,6 +1,15 @@
 @import 'colors';
 @import 'mixins';
 
+@media only screen and (min-width: 900px){
+    body .whole-body-container .sticky-footer {
+        display: none;
+    }
+    body .whole-body-container footer {
+        margin-bottom: 0px;
+    }
+}
+
 @media only screen and (max-width: 900px){
     body {
         overflow-x: hidden;
@@ -123,6 +132,12 @@
                     footer {
                        flex-direction: column;
 
+                            .child {
+                                .span-container {
+                                    display: none;
+                                }
+                            }
+
                             .item {
                                 width: 100%;
                             }
@@ -134,7 +149,7 @@
                                 width: 100%;
                             }
                     }
-
+                    
                     .queries {
                         align-items: stretch;
                         
@@ -159,6 +174,16 @@
     }
     body .whole-body-container footer {
         align-items: center;
+
+            .child {
+                h3 {
+                    text-align: center;
+                }
+                .span-container {
+                    display: none;
+                    align-items: center;
+                }
+            }
     }
     body .whole-body-container .articles .top h2 {
         font-size: 1.8rem;

@@ -52,7 +52,6 @@ footer .child h3 {
   margin-bottom: 20px;
   cursor: pointer;
   width: 100%;
-  text-align: center;
 }
 
 footer .child .span-container {
@@ -73,7 +72,6 @@ footer .child .span-container {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 100px;
-  display: none;
 }
 
 footer .child .span-container span {
