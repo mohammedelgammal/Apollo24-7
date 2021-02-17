@@ -8,6 +8,20 @@
 }
 
 @media only screen and (max-width: 900px) {
+  body .whole-body-container .tests-container .test {
+    width: 90%;
+    padding-left: 10px;
+  }
+  body .whole-body-container .tests-container .test .swiper-container-test .slide {
+    margin: 0px 13px;
+  }
+  body .whole-body-container .health-container .health {
+    width: 90%;
+    padding-left: 10px;
+  }
+  body .whole-body-container .health-container .health .swiper-container-health .slide {
+    margin: 0px 11px;
+  }
   body {
     overflow-x: hidden;
   }
@@ -55,6 +69,28 @@
 }
 
 @media only screen and (max-width: 768px) {
+  body .whole-body-container .tests-container .test {
+    width: 90%;
+    padding-left: 30px;
+  }
+  body .whole-body-container .tests-container .test .swiper-container-test .slide {
+    margin: 0px 8px;
+  }
+  body .whole-body-container .health-container .health {
+    width: 90%;
+    padding-left: 10px;
+  }
+  body .whole-body-container .health-container .health .swiper-container-health .slide {
+    min-width: 135px;
+    margin: 0px 5px;
+  }
+  body .whole-body-container .top-specialities .swiper-container-specialities {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .whole-body-container .top-specialities .swiper-container-specialities .slide {
+    margin-top: 30px;
+  }
   body {
     overflow-x: hidden;
   }
@@ -160,6 +196,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+  body .whole-body-container .tests-container .test {
+    width: 90%;
+    padding-left: 10px;
+  }
+  body .whole-body-container .tests-container .test .swiper-container-test .slide {
+    margin: 0px 5px;
+  }
+  body .whole-body-container .health-container .health {
+    width: 96%;
+    padding-left: 10px;
+  }
+  body .whole-body-container .health-container .health .swiper-container-health .slide {
+    min-width: 130px;
+    margin: 0px 2px;
+  }
   .whole-body-container {
     padding-right: 20px;
   }
@@ -185,6 +236,13 @@
   }
   body .whole-body-container .articles .middle .right {
     bottom: 2px;
+  }
+  body .whole-body-container .tests-container .test {
+    width: 120%;
+    padding-left: 40px;
+  }
+  body .whole-body-container .tests-container .test .slide {
+    margin: 10px;
   }
   body .whole-body-container .queries {
     -webkit-box-align: stretch;

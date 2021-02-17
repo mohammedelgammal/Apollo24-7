@@ -1,14 +1,23 @@
+//shop by health section
 .health-container
+    //header text
     h3 SHOP BY HEALTH CONDITIONS
-    .line    
+    //solid break line
+    .line   
+    //slider section 
     .health      
         .swiper-container-health 
             include variables 
                 each key, val in health 
+                    //slide
                     .slide
+                        //slide image
                         img(src="imgs/"+val+".webp" alt=key)
+                        //slide text
                         span= key
+        //next slide button                
         .right
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" color="#000"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        //previous slide button
         .left  
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" color="#000"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>

@@ -18,7 +18,7 @@ let swiperOne = new Swiper('.swiper-container', {
 })
 
 next.addEventListener('click', () => {
-    if(counter >= 6) {
+    if(counter >= 7) {
         next.style.cssText = 'pointer-events: none; opacity: 0.5;'
     };
     wrapper.style.transition = 'transform 0.3s ease';
