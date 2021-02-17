@@ -65,3 +65,17 @@ prev2.addEventListener('click', () => {
     wrapper2.style.transform = `translateX(${slideWidth2 * counter2 * -1}px)`;
     next2.style.cssText = 'pointer-events: all; opacity: 1;'
 });
+
+let items = document.querySelectorAll('footer .child h3');
+let spanContainer = document.querySelectorAll('footer .child .span-container');
+
+for(let i = 0; i < items.length; i++){
+    items[i].addEventListener('click', () => {
+        if(spanContainer[i].style.display === 'flex'){
+            spanContainer[i].style.display = 'none';
+        } else {
+            spanContainer[i].style.display = 'flex';
+        }
+        
+    })
+}

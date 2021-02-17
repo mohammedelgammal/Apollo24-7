@@ -85,7 +85,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 167px;
+  min-width: 167px;
   height: 190px;
   border-radius: 10px;
   padding: 10px 0px;
@@ -108,7 +108,7 @@
   font-weight: bold;
   color: gray;
   height: 40px;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 

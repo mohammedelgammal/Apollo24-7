@@ -1,14 +1,6 @@
 @import 'mixins';
 @import 'colors';
-@import 'header';
-@import 'main-section';
-@import 'queries';
-@import 'slider';
-@import 'articles';
-@import 'footer';
-@import 'shopbyhealth';
-@import 'topspecialities';
-@import 'tests';
+
 
 * {
     margin: 0px;
@@ -19,17 +11,29 @@
 body {
     @include centering;
     width: 100vw;
+    height: auto;
     font-family: sans-serif;
-    background-color: rgb(201, 201, 201);
-    overflow-x: hidden;
-}
+    background-color: rgb(209, 209, 209);
 
-.whole-body-container {
-    @include centering;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 92%;
-    background-color: white;
+        .whole-body-container {
+            @include centering;
+            position: relative;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            background-color: white;
+
+                @import 'floaters';
+                @import 'header';
+                @import 'main-section';
+                @import 'queries';
+                @import 'slider';
+                @import 'articles';
+                @import 'footer';
+                @import 'shopbyhealth';
+                @import 'topspecialities';
+                @import 'tests';
+                @import 'media';
+        }
 }
 

@@ -10,27 +10,31 @@
     margin-top: 30px;
     box-shadow: 0px 0px 10px rgb(211, 211, 211);
     background-color: white;
-    padding: 20px 30px;
+    padding: 20px 20px;
 
         p {
             text-align: left;
-            padding-left: 20px;
             width: 100%;
             color: rgb(95, 95, 95);
             font-size: 18px;
             margin-bottom: 20px; 
+            padding-left: 10px;
         }
         .lower-container {
             @include centering;
-            align-items: flex-start;
+            justify-content: flex-start;
+            height: auto;
+            width: 100%;
+            padding: 10px;
 
                 .faq {
                     @include centering;
-                    width: 200px;
+                    min-width: 150px;
                     height: 50px;
                     border-radius: 10px;
                     box-shadow: 0px 0px 10px $light-pink;
                     margin: 0px 10px;
+                    padding: 10px;
 
                         svg {
                             fill: $light-pink;
@@ -42,6 +46,7 @@
                             font-size: 14px;
                             flex: 4;
                             color: $light-pink;
+                            
                         }
                 }
         }

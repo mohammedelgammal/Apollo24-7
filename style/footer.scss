@@ -3,11 +3,14 @@
 
 footer {
     @include centering;
-    height: 430px;
+    align-items: flex-start;
+    height: auto;
     width: 100%;
     background-color: black;
     color: white;
     padding: 30px;
+    margin-bottom: 70px;
+    
 
         .child {
             @include centering;
@@ -16,21 +19,34 @@ footer {
             flex-direction: column;
             flex: 1;
             height: 100%;
-
+            padding: 10px;
+            
                 h3 {
                     font-size: 14px;
                     color: red;
                     margin-bottom: 20px;
+                    cursor: pointer;
+                    width: 100%;
+                    text-align: center;
                 }
 
-                span {
-                    margin: 6px 0px;
-                    font-size: 14px;
+                .span-container {
+                    @include centering;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    min-width: 100px;
+                    display: none;  
+
+                        span {  
+                            margin: 6px 0px;
+                            font-size: 14px;
+                        }
                 }
+
+                
         }
 
         .logo {
-
 
                 img { 
                     width: 100px;
