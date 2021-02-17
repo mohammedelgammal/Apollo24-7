@@ -1,0 +1,141 @@
+.health-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 150px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.health-container .health {
+  width: 80%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.health-container .health .swiper-container-health {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 75%;
+  height: 100px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.health-container .health .swiper-container-health .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-width: 167px;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px lightgray;
+          box-shadow: 0px 0px 10px lightgray;
+  margin: 0px 10px;
+}
+
+.health-container .health .swiper-container-health .slide img {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.health-container .health .swiper-container-health .slide span {
+  margin: 0px 15px;
+  font-size: 12px;
+}
+
+.health-container .health .left, .health-container .health .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px gray dashed;
+  border-radius: 50%;
+  top: 80px;
+  margin: 0px 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.health-container .health .left {
+  left: 0px;
+}
+
+.health-container .health .right {
+  right: 0px;
+}
+
+.health-container h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  height: 48px;
+  margin-left: 50px;
+}
+
+.health-container .line {
+  width: 95%;
+  height: 1px;
+  background-color: gray;
+}
+/*# sourceMappingURL=shopbyhealth.css.map */

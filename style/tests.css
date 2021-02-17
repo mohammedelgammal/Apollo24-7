@@ -1,0 +1,259 @@
+.tests-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 320px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.tests-container h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  height: 48px;
+  margin-left: 50px;
+}
+
+.tests-container .line {
+  width: 95%;
+  height: 1px;
+  background-color: gray;
+}
+
+.tests-container .test {
+  width: 80%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.tests-container .test .swiper-container-test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 250px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 10px;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.tests-container .test .swiper-container-test .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 320px;
+  height: 90%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px lightgray;
+          box-shadow: 0px 0px 10px lightgray;
+  margin: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .line {
+  width: 95%;
+  height: 1px;
+  background-color: gray;
+}
+
+.tests-container .test .swiper-container-test .slide .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 80px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .top img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .top span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 80%;
+}
+
+.tests-container .test .swiper-container-test .slide .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .middle span {
+  font-size: 12px;
+}
+
+.tests-container .test .swiper-container-test .slide .first-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 35px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .first-lower span {
+  color: gray;
+  font-size: 14px;
+}
+
+.tests-container .test .swiper-container-test .slide .first-lower img {
+  height: 20px;
+  width: 30px;
+  margin: 0px 5px;
+}
+
+.tests-container .test .swiper-container-test .slide .first-lower #price {
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+.tests-container .test .swiper-container-test .slide .second-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 35px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.tests-container .test .swiper-container-test .slide .second-lower .price #before {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.tests-container .test .swiper-container-test .slide .second-lower .price #after {
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.tests-container .test .swiper-container-test .slide .second-lower .add span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FCBC52;
+}
+
+.tests-container .test .left, .tests-container .test .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border: 1px gray dashed;
+  border-radius: 50%;
+  top: 50%;
+  margin: 0px 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.tests-container .test .left {
+  left: 0px;
+}
+
+.tests-container .test .right {
+  right: 0px;
+}
+/*# sourceMappingURL=tests.css.map */

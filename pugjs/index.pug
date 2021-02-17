@@ -6,15 +6,20 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Apollo247 
         link(rel="stylesheet", href="style/style.css")
-        link(rel="stylesheet", href="style/swiper-bundle.min.css")
-    body
+        link(rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css")
+        link0(rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css")   
+        body
         .whole-body-container 
             include header 
             include main-section
             include queries   
             include slider
             include articles
+            include shopbyhealth
+            include topspecialities
+            include tests
             include footer
               
-    script(src="scripts/swiper-bundle.min.js")  
+    script(src="https://unpkg.com/swiper/swiper-bundle.js")
+    script(src="https://unpkg.com/swiper/swiper-bundle.min.js")
     script(src="scripts/main.js")
