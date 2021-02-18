@@ -196,21 +196,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  body .whole-body-container .tests-container .test {
-    width: 90%;
-    padding-left: 10px;
-  }
-  body .whole-body-container .tests-container .test .swiper-container-test .slide {
-    margin: 0px 5px;
-  }
-  body .whole-body-container .health-container .health {
-    width: 96%;
-    padding-left: 10px;
-  }
-  body .whole-body-container .health-container .health .swiper-container-health .slide {
-    min-width: 130px;
-    margin: 0px 2px;
-  }
   .whole-body-container {
     padding-right: 20px;
   }
@@ -238,7 +223,7 @@
     bottom: 2px;
   }
   body .whole-body-container .tests-container .test {
-    width: 120%;
+    width: 90%;
     padding-left: 40px;
   }
   body .whole-body-container .tests-container .test .slide {

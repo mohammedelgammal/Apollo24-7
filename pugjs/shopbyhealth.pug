@@ -3,14 +3,14 @@
     //header text
     h3 SHOP BY HEALTH CONDITIONS
     //solid break line
-    .line   
+    .line
     //slider section 
-    .health      
-        .swiper-container-health 
+    .swiper-container.health      
+        .swiper-wrapper 
             include variables 
                 each key, val in health 
                     //slide
-                    .slide
+                    .swiper-slide
                         //slide image
                         img(src="imgs/"+val+".webp" alt=key)
                         //slide text
