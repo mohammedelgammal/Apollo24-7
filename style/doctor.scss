@@ -1,0 +1,17 @@
+@import 'colors';
+@import 'mixins';
+
+.doctor {
+    @include centering;
+    width: 90%;
+    height: auto;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    
+
+        img {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+}

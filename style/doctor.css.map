@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,CAAC;EEFJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EFEnB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,QAAQ;EACzB,MAAM,EAAE,QAAQ;CAQnB;;AAbD,AAQQ,OARD,CAQC,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "doctor.scss",
+        "colors.scss",
+        "mixins.scss"
+    ],
+    "names": [],
+    "file": "doctor.css"
+}

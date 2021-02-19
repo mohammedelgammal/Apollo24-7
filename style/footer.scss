@@ -14,6 +14,7 @@ footer {
 
         .child {
             @include centering;
+            position: relative;
             align-items: flex-start;
             justify-content: flex-start;
             flex-direction: column;
@@ -23,7 +24,7 @@ footer {
             
                 h3 {
                     font-size: 14px;
-                    color: red;
+                    color: orange;
                     margin-bottom: 20px;
                     cursor: pointer;
                     width: 100%;
@@ -34,6 +35,8 @@ footer {
                     align-items: flex-start;
                     flex-direction: column;
                     min-width: 100px;
+                    transition: transform 0.8s ease;
+                    animation: fadein 0.8s ease;
 
                         span {  
                             margin: 6px 0px;
@@ -41,7 +44,16 @@ footer {
                         }
                 }
 
-                
+                @keyframes fadein {
+                    from {
+                        transform: translateY(-40px);
+                        opacity: 0;
+                    }
+                    to {
+                        transform: translateY(0px);
+                        opacity: 1;
+                    }
+                } 
         }
 
         .logo {

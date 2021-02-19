@@ -1,23 +1,24 @@
 footer 
     .logo.child 
-        img(src="imgs/logo.webp", alt="logo")
-    .about.child 
+        a(href="index.html") 
+            img(src="imgs/logo.webp", alt="logo")
+    .about.child.after 
         include variables 
         h3 About Apollo 247
         .span-container
             each item in aboutArr
                 span= item
-    .services.child 
+    .services.child.after 
         h3 Services
         .span-container
             each item in services
                 span= item
-    .specialities.child 
+    .specialities.child.after 
         h3 Top Specialities
         .span-container
             each item in specialities      
                 span= item 
-    .categories.child 
+    .categories.child.after 
         h3 Product Categories
         .span-container
             each item in categories

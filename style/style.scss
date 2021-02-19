@@ -8,12 +8,22 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $light-gray;
+}
+
 body {
     @include centering;
     width: 100vw;
     height: auto;
     font-family: sans-serif;
     background-color: rgb(209, 209, 209);
+    overflow-x: hidden;
 
         .whole-body-container {
             @include centering;
@@ -22,17 +32,19 @@ body {
             justify-content: center;
             width: 90%;
             background-color: white;
+            
 
                 @import 'floaters';
                 @import 'header';
                 @import 'main-section';
-                @import 'queries';
                 @import 'slider';
+                @import 'queries';
                 @import 'articles';
-                @import 'footer';
                 @import 'shopbyhealth';
                 @import 'topspecialities';
                 @import 'tests';
+                @import 'doctor';
+                @import 'footer';
                 
         }
 }
