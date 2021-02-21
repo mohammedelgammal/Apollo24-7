@@ -18,7 +18,7 @@
     width: 100%;
   }
   body .whole-body-container header {
-    width: 100%;
+    width: 100vw;
   }
   body .whole-body-container .doctor {
     display: -webkit-box;
@@ -139,7 +139,7 @@
   }
   body .whole-body-container {
     padding-right: 20px;
-    width: 100%;
+    width: 100vw;
   }
   body .whole-body-container header .logo {
     width: 100%;
@@ -161,6 +161,9 @@
   }
   body .whole-body-container header .nav .cart .number {
     right: -3px;
+  }
+  body .whole-body-container .main-section {
+    min-width: 100vw;
   }
   body .whole-body-container .main-section .img-container {
     display: none;
@@ -267,7 +270,11 @@
 
 @media only screen and (max-width: 600px) {
   .whole-body-container {
+    width: 100vw;
     padding-right: 20px;
+  }
+  .whole-body-container .main-section {
+    min-width: 100vw;
   }
   body .whole-body-container .doctor-panel {
     right: 20px;

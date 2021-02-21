@@ -67,6 +67,15 @@ doctor.addEventListener('click', () => {
         closingPanel.style.display = 'flex';
     }
 });
+let headerElement = document.querySelector('header');
 
+window.addEventListener('scroll', () => {
+    if(window.scrollY === 0){
+        headerElement.style.cssText = 'box-shadow: none';
+    } else {
+        headerElement.style.cssText = 'box-shadow: 0px 5px 5px 0 0 rgb(240, 240, 240)';
+    }
+    
+})
 
 

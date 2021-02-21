@@ -23,7 +23,7 @@
         width: 100%;
     }
     body .whole-body-container header {
-        width: 100%;
+        width: 100vw;
     }
 
     body .whole-body-container .doctor {
@@ -138,7 +138,7 @@
         
             .whole-body-container {
                 padding-right: 20px;
-                width: 100%;
+                width: 100vw;
 
                     header {
                         
@@ -167,6 +167,8 @@
                     }
 
                     .main-section {
+                        min-width: 100vw;
+
                         .img-container {
                             display: none;
                         }
@@ -272,7 +274,12 @@
 
 @media only screen and (max-width: 600px){
     .whole-body-container {
+        width: 100vw;
         padding-right: 20px;
+
+            .main-section {
+                min-width: 100vw;
+            }    
     }
     body .whole-body-container .doctor-panel {
         right: 20px;
